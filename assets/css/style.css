@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+header {
+    background: url(https://fondosmil.com/fondo/20870.jpg);
+    height: 100vh;
+}
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+header .logo-y-menu {
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+    
+}
+
+nav ul li a {
+    color: white;
+}
+
+header .boton a, .botones a, #discografia a {
+    background: yellow;
+    color: black;
+    padding: 20px 30px;
+    line-height: 50px;
+    margin-left: 10px;
+    
+}
+
+header .titular {
+    margin-top: 30vh;
+    color: white;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    width: 80%;
+}
+
+.blanco {
+    background: white !important;
+}
+
+#discografia {
+    background: black;
+    color: white;
+    padding: 60px 0;
+}
+
+h4 {
+    margin: 0;
+    color: yellow;
+    border: 1px solid gray;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px
+}
+
+#discografia .contenedor {
+    display: flex;
+    align-items: center;
+}
+
+#discografia span {
+    color: yellow;
+    text-decoration: underline;
+}
+
+#discografia h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#discografia p {
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+#discografia img {
+    width: 100%;
+}
+
+#discografia .texto {
+    width: 50%;
+}
+
+#discografia .foto {
+    width: 40%;
+}
+
+.contenedor-textos {
+    display: flex;
+}
+
+#about h4 {
+    color: #000;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.negro {
+    background: #aaa !important;
+}
+
+#about {
+    padding: 100px 0;
+}
+
+#tour {
+    background: yellow;
+    padding: 60px 0;
+}
+
+#tour .contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tour img {
+    width: 100%;
+}
+
+#tour .texto {
+    width: 50%;
+}
+
+#tour .imagen {
+    width: 40%;
+    position: relative;
+    top: -110px;
+}
+
+#tour h4 {
+    color: black;
+    text-align: center;
+}
+
+.fechas {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    padding-bottom: 30px;
+    margin: auto;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #cccccc57;
+}
+
+.fechas .numero {
+    font-size: 34px;
+}
+
+.fechas h5, .fechas p {
+    margin: 0;
+}
+
+.fechas h5 {
+    font-size: 20px;
+}
+
+.fechas a {
+    background: white;
+    color: black;
+    padding: 15px 30px;
+    margin-left: 100px;
+}
+
+.boton {
+    position: fixed;
+    margin-left: 1150px;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

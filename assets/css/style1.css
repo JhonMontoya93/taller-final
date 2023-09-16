@@ -1,0 +1,17 @@
+.festival {
+    width: 50%;
+}
+
+.guajira {
+    width: 50%;
+    margin-left: 665px;
+    height: 90%;
+}
+
+.tour {
+    width: 100%;
+}
+
+body {
+    background: cadetblue;
+}
