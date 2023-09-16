@@ -1,0 +1,26 @@
+.festival {
+    height: 100%;
+
+}
+
+.titulo {
+    margin-top: 50px;
+    height: 100px;
+    background: aqua;
+    margin: 0;
+    color: white;
+}
+
+.imagen {
+   width: 100%;
+}
+
+.tour {
+    height: 50%;
+    width: 100%;
+}
+
+.festival {
+    height: 50%;
+    width: 100%;
+}
